@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #d7ff6f;
+  color: #fff;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: linear-gradient(to right, #3b2be2 50%, #d7ff6f 50%);
+  padding: 60px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h1 {
+  font-size: 60px;
+  margin: 0;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.content h1 span {
+  color: #d7ff6f;
+}
+
+.content p {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #d1cfe3;
+}
+
+.info {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #e0def7;
+  line-height: 1.8;
+}
+
+.features {
+  margin-top: 30px;
+  font-size: 15px;
+  color: #a9a6c5;
+}
+
+.profile img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 4px solid #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
